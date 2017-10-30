@@ -37,8 +37,27 @@ div.document {
 
 /* ========== Headings ========== */
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.10em;
+}
+
+h1, h2 {
     font-weight: normal;
+}
+
+h3, h4, h5, h6 {
     margin-top: 1.5em;
 }
 
@@ -283,6 +302,11 @@ ol.lowerroman {
 
 ol.upperroman {
     list-style: upper-roman;
+}
+
+dt {
+    text-transform: uppercase;
+    font-size: 0.75em;
 }
 
 dl.docutils dd {
