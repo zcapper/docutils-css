@@ -1,10 +1,10 @@
 ## Usage
 
-	rst2html.py --stylesheet=docutils_basic.css yourpage.rst yourpage.html
+	rst2html5.py --stylesheet=docutils_basic.css yourpage.rst yourpage.html
 
 or to link to the stylesheet instead of embedding it:
 
-	rst2html.py --stylesheet=docutils_basic.css --link-stylesheet yourpage.rst yourpage.html
+	rst2html5.py --stylesheet=docutils_basic.css --link-stylesheet yourpage.rst yourpage.html
 
 ## Demo
 
