@@ -82,6 +82,17 @@ span.section-subtitle {
     font-size: 80%,
 }
 
+@media print {
+    div.section h1 {
+        page-break-before: always;
+    }
+    
+    div.section:first-of-type h1 {
+        page-break-before: initial;
+    }
+}
+
+
 /* //-------- Headings ---------- */
 
 
@@ -305,8 +316,8 @@ ol.upperroman {
 }
 
 dt {
-    text-transform: uppercase;
-    font-size: 0.75em;
+    font-variant: small-caps;
+    font-size: 0.85em;
 }
 
 dl.docutils dd {
